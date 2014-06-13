@@ -1,0 +1,591 @@
+/*******************************************************************************
+ *
+ * LOGO
+ *
+ *******************************************************************************/
+
+.logoSignInIcon {
+	font-size:55px;
+	color:#d63e50;
+}
+
+.logoSignInText {
+	font-size:70px;
+	font-weight:bold;
+	color:#55565b;
+}
+
+.logoAppIcon {
+	font-size:22px;
+	color:#d63e50;
+}
+
+.logoAppText {
+	font-size:22px;
+	font-weight:bold;
+	color:#55565b;
+	position:fixed;
+	left:20px;
+	top:11px;
+	z-index:20;
+}
+
+/*******************************************************************************
+ *
+ * GLOBAL
+ *
+ *******************************************************************************/
+
+body {	
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+h1 {
+	font-size:16px;
+	margin:0px 0px 20px 0px;
+	padding:8px;
+	color:#d63e50;
+	font-weight:bold;
+	border-bottom: 4px solid #f1f1f1;
+}
+
+/* Change bootstrap settings */
+.form-control:focus {
+	border-color: #4F7588; /* bootstrap default: #66AFE9;*/
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(79, 117, 136, 0.6);
+			box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(79, 117, 136, 0.6);
+}
+.panel-title {
+	font-size:15px;
+	font-weight:bold;
+}
+
+
+/*******************************************************************************
+ *
+ * MENU TOP
+ *
+ *******************************************************************************/
+
+/* -------------------------------------------------------------------
+ * Menu bar
+ * ----------------------------------------------------------------- */
+
+/* Menu bar - Logo */
+.navbar-brand {
+	margin-left: 100px;
+}
+
+/* Menu bar - Icons */
+#MenuAppli li > a > span {
+	margin-right: 5px;
+}
+
+/* Menu bar - Not open - Text */
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+	background-color:#d63e50;
+	color:#ffffff;
+	font-style: italic;
+}
+
+/* Menu bar - Not open - Caret */
+.navbar-default .navbar-nav > .active > a .caret,
+.navbar-default .navbar-nav > .active > a:hover .caret,
+.navbar-default .navbar-nav > .active > a:focus .caret {
+	border-top-color:#ffffff;
+	border-bottom-color:#ffffff;
+}
+
+/* Menu bar - Open  */
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+	background-color:#b83545;
+	color:#ffffff;
+}
+
+/* Menu bar - Open - Caret */
+.navbar-default .navbar-nav > .open > a .caret,
+.navbar-default .navbar-nav > .open > a:hover .caret,
+.navbar-default .navbar-nav > .open > a:focus .caret {
+	border-top-color:#ffffff;
+	border-bottom-color:#ffffff;
+}
+
+/* -------------------------------------------------------------------
+ * All menus (contents)
+ * ----------------------------------------------------------------- */
+
+/* All Menu links */
+.dropdown-menu > li > a {
+	line-height: 22px;
+}
+
+/* Active Sublink */
+.dropdown-menu > li > .linkActive {
+	color:#ffffff;
+	font-style: italic;
+	background-color:#d63e50;
+}
+
+/* -------------------------------------------------------------------
+ * Menu webapp
+ * ----------------------------------------------------------------- */
+
+/* Menu webapp - Icons */
+#menu_webapp .dropdown-menu > li > span {
+	color:#d63e50;
+	margin-right: 5px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:10px;
+}
+
+/* -------------------------------------------------------------------
+ * Menu exemple
+ * ----------------------------------------------------------------- */
+
+/* Menu exemple - Icons */
+#menu_exemple .dropdown-menu > li > span {
+	color:#d63e50;
+	margin-right: 5px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:10px;
+}
+
+/* -------------------------------------------------------------------
+ * Menu More
+ * ----------------------------------------------------------------- */
+
+/* Menu More - Title */
+#menu_more .dropdown-menu > li > strong {
+	padding-left: 10px;
+	line-height: 25px;
+}
+
+/* Menu More - Icon */
+#menu_more .dropdown-menu > li > a > span {
+	color:#aeaeae;
+	margin-right: 5px;
+}
+
+
+/*******************************************************************************
+ *
+ * MENU BOTTOM
+ *
+ *******************************************************************************/
+
+/* Div */
+#MenuBottom div {
+	float:left;
+}
+#MenuBottomLeft {
+	width:10%;
+	text-align:left;
+}
+#MenuBottomMiddle {
+	width:80%;
+	text-align:center;
+}
+#MenuBottomRight {
+	width:10%;
+	text-align:right;
+}
+
+/* Arrows */
+#MenuBottomLeft span,
+#MenuBottomRight span {
+	color:#aeaeae;
+	margin: 15px;
+	font-size: 32px;
+}
+
+/* Navigation */
+#MenuBottomMiddle span {
+	color:#bfbfbf;
+	font-size: 10px;
+	padding-left:15px;
+	padding-right:15px;
+	margin-top:24px;
+}
+span#MenuBottomMiddleActive.glyphicon.glyphicon-certificate {
+	color:#d63e50;
+}
+
+
+/*******************************************************************************
+ *
+ * LOGIN PAGE
+ *
+ *******************************************************************************/
+
+/* Button submit */
+.btn-danger,
+.btn-danger:hover
+{
+	color: #ffffff;
+	background-color: #d63e50;
+}
+
+/*******************************************************************************
+ *
+ * TABS
+ *
+ *******************************************************************************/
+
+/* Div */
+#tabs_menu {
+	margin-bottom: 30px;
+}
+
+/* All */
+.nav-pills > li {
+	padding: 1px;
+	vertical-align: bottom;
+}
+
+/* Tab menu active */
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+	color:#ffffff;
+	background-color:#a8a8a8;
+}
+
+/* Tab menu non active */
+.nav-pills > li > a,
+.nav-pills > li > a:focus {
+	color:#858585;
+	background-color:#f8f8f8;
+}
+
+/* Tab menu non active : hover */
+.nav-pills > li > a:hover{
+	color:#ffffff;
+	background-color:#c5c5c5;
+}
+
+/*******************************************************************************
+ *
+ * webapp
+ *
+ *******************************************************************************/
+
+.right {
+	float: right;
+}
+
+.inputPercent {
+	min-width: 70px;
+}
+
+.inputError {
+	color:#ff0000;
+	font-weight:bold;
+}
+
+.inputError2 {
+	color:#ea5151;
+}
+
+/*******************************************************************************
+ *
+ * exemple
+ *
+ *******************************************************************************/
+ 
+.cost {
+	background-color: #edf1f3;/* #effcfa;*/
+}
+ 
+.patient {
+	color: #4f7588;
+	/*background-color: #cff4f0;*/
+}
+
+.cost > td > span,
+.patient > td > span {
+	float: right;
+}
+
+
+/*******************************************************************************
+ *
+ * MODAL WINDOWS
+ *
+ *******************************************************************************/
+
+.dialog > div {
+	border: 0px;
+	padding: 20px 20px 20px 10px;
+	margin-top: 50px;
+}
+
+/* image */
+.dialog > div > div > span {
+	margin: 20px 0px 0px 0px;
+	font-size: 80px;
+}
+
+.dialog h1 {
+	color: #333333;
+}
+
+.dialog h2 {
+	font-size: 14px;
+	font-style: italic;
+	margin: 0px 0px 5px 0px;
+	padding: 8px;
+	color: #777777;
+	display: inline-block;
+	width: 100%;
+	line-height: 20px;
+	vertical-align: middle;
+	text-align: left;
+	background-color: #f8f8f8;	
+}
+
+/* button */
+.dialog .pull-right {
+	margin: 30px 0px 10px 0px;
+}
+
+.dialog p + h1 {
+	margin-top: 20px;
+}
+
+.dialog .inputError2 {
+	margin-top: 10px;
+}
+
+/*******************************************************************************
+ *
+ * FORM
+ *
+ *******************************************************************************/
+
+.note {
+	font-size: 0.9em;
+	color:#777777;
+}
+
+.strapline_red_big {
+	font-size: 2em;
+	color: #d63e50;
+	font-weight: bold;
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.strapline_orange_big {
+	font-size: 2em;
+	color: #ed8b00;
+	font-weight: bold;
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.strapline_blue_big {
+	font-size: 2em;
+	color: #4f7588;
+	font-weight: bold;
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.strapline_blue {
+	font-size: 1.2em;
+	color: #4f7588;
+	font-weight: bold;
+}
+.strapline_green_big {
+	font-size: 2em;
+	color: #84b300;
+	font-weight: bold;
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.form a,
+.form a:hover,
+.form a:focus {
+    color: #84b300;
+}
+
+.form input {
+	text-align: right;
+}
+
+.form h3 {
+	font-size: 14px;
+	margin: 10px 0px 20px 0px;
+	padding: 8px;
+	color: #4f7588;
+	font-weight: bold;
+	border-bottom: 4px solid #f1f1f1;
+}
+	
+.form h4 {
+	font-size:14px;
+	margin:0px 0px 10px 0px;
+	padding:8px;
+	color:#777777;
+	display: inline-block;
+	width:150px;
+	text-align:center;
+	background-color:#f8f8f8;
+	float: left;
+	clear:both;
+}
+
+.form h5 {
+	padding:0px 0px 0px 0px; /* top right bottom left*/
+	font-style: italic;
+}
+
+.form label.title {
+	font-weight:bold;
+}
+
+.form label {
+	font-weight:normal;
+}
+
+.form label.active {
+	color: #4f7588;
+}
+
+.form .disabled {
+	color:#bbbbbb;
+}
+
+.form h4+span {
+	display: inline-block;
+	margin : 0px 0px 0px 0px;
+	padding: 5px 0px 8px 10px;
+	width:60%;
+}
+
+.form .btn-primary,
+.form .btn-primary:hover
+{
+	color: 	#333333;
+	background-color: #EEEEEE;
+	border-top-color: #ADADAD;
+	border-right-color:	#ADADAD;
+	border-bottom-color: #ADADAD;
+	border-left-color: #ADADAD;
+}
+
+/* -------------------------------------------------------------------
+ * Select fields from bootstrap-select
+ * ----------------------------------------------------------------- */
+
+.form .custom-select-black > div > button {
+	color: #000000;
+	font-weight: bold;
+}
+
+.form .custom-select-green > div > button {
+	color: #4f7588;
+	font-weight: bold;
+}
+
+.form .custom-select-orange > div > button {
+	color: #ed8b00;
+	font-weight: bold;
+}
+
+.form a.list1_0 {
+	color: #ed8b00;
+}
+
+.form a.list1_1 {
+	color: #a15e00;
+}
+
+.form a.list2_0 { /*.form select option.list2, optgroup.list2 {*/
+	color: #483d8b; /* #783DD6; */
+}
+
+.form a.list2_1 {
+	color: #2c2656;
+}
+
+.form a.list3_0 {
+	color: #d63e50;
+}
+
+.form a.list3_1 {
+	color: #a52332;
+}
+
+.form a.list4_0 {
+	color: #555555;
+}
+
+.form a.list4_1 {
+	color: #4d4d4d;
+}
+
+/* -------------------------------------------------------------------
+ * 
+ * ----------------------------------------------------------------- */
+
+.form .mspatient {
+	color: #4f7588;
+	font-weight: bold;
+	text-align: right;
+}
+
+/*******************************************************************************
+ *
+ * GRAPHS
+ *
+ *******************************************************************************/
+
+.graph {
+	height: 500px;
+	width: 100%;
+	z-index: 2;
+}
+
+.graph_small {
+	height: 100%;
+	width: 100%;
+	z-index: 2;
+}
+ 
+/*.jqplot-target {
+    font-family: "Helvetica Neue",​Helvetica,​Arial,​sans-serif;
+}*/
+
+#graph_numberofsvrpatients .jqplot-series-2,
+#graph_numberofsvrpatients .jqplot-series-3 {
+	padding: 1px 3px;
+	background-color: #F8F8F8;
+}
+
+#graph_genotypesplit .jqplot-data-label {
+	color: #000000;
+}
+
+.jqplot-title {
+    padding-bottom: 0.7em; /*0.5em;*/
+}
+
+#graph_waterfall .jqplot-point-label {
+	padding: 1px 2px;
+	background-color: #F8F8F8;
+}
+
+#graph_numberofcasesavoided .jqplot-point-label {
+	padding: 1px 2px;
+	background-color: #F8F8F8;
+}

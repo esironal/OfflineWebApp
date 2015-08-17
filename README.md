@@ -1,13 +1,13 @@
 #HTML5 offline web app (design for iOS and Android tablets)
 ##Installation
 ```txt
-La base de données sous forme de fichiers SQL se trouve dans le dossier "installation".
-A insérer dans votre base de données avec l'aide de PHPMyAdmin ou un équivalent.
+SQL file as the database is in the "installation" folder.
+To be inserted into your database with the help of phpMyAdmin or equivalent.
 
-La configuration de l'application s'effectue dans le fichier "online/utils.php".
-Ne pas oublier de changer les droits du répertoire "cache" en écriture.
+The application configuration is done in the "online / utils.php" file.
+Do not forget to change directory permissions "cache" writable.
 
-Des difficultés à installer ou configurer : envoyer moi un email à jclebreton@gmail.com
+Trouble installing or configuring: send me an email to jclebreton@gmail.com
 
-Enjoy ;)
+Enjoy;)
 ```
